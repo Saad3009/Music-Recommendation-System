@@ -50,5 +50,5 @@ if __name__ == "__main__":
 
     artist_retriever = ArtistRetriever()
     artist_retriever.load_artists(Path("Music-Recommendation-System/lastfmdata/artists.dat"))
-    artist = artist_retriever.get_artist_name_from_id(1)
+    artist = artist_retriever.get_artist_name_from_id(1) #getting the name of id 1
     print(artist)
